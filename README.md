@@ -1,5 +1,5 @@
 # Iran-Transactions-Analysis
-* In this Data Analysis session I chose a dirty dataset from Kaggle that was based on Iran Transactions, I cleaned the data inside the Excel file and then used Power BI to visualize the results.
+* In this Data Analysis session I chose a dirty dataset from Kaggle that was based on Iranian Transactions that took place in September 2025. I cleaned the data inside the Excel file and then used Power BI to visualize the results.
 * The original dataset was downloaded from https://www.kaggle.com/datasets/hosseinbadrnezhad/dirty-iranian-transactions-dataset
 * I have also provided both the original dataset and the one I have modified.
 
@@ -13,3 +13,6 @@ To start with, as soon as I downloaded the dataset, it needed some processing be
 Then it was time for the Data Cleaning. This dataset was not something really hard to deal with. It includes 6 rows. Status, Date, Time, Card_type, City and Amount. 
 
 At first, I noticed that in the column named “status,” which contains titles such as ‘success’ and “fail,” some began with a capital letter and some did not. So I created a new column named “status_new” that contains the same labels but with all letters capitalized to make it easier to filter them. Then, in the same column, in some rows, “success” was written as “succeed” and “fail” as “failed.” I replaced those. Finally, I deleted any remaining “nan” entries.
+
+
+Next, I went to the “date” column. Things get a little more complicated there. I couldn't easily filter it, since I wanted to keep both the date and the time. The easy part is that it consists only of the days of September 2025. I created a new column and copied the data from the previous one into it. I converted this new column to the “Time” format on the Home tab and the old column to “Short Date.” That way, I separated the date from the time and kept both pieces of data intact. 
