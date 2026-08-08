@@ -5,4 +5,7 @@
 
 
 # Data preparation & Data Analysis
-
+To start with, as soon as I downloaded the dataset, it needed some processing before the columns and their data became visible.
+* I selected the **first column** -> **Data** -> **Text to Columns** -> **Delimited by comma**
+* **CTRL A** -> **ALT** -> Type **HOI**
+* **Bold the column headers.**
