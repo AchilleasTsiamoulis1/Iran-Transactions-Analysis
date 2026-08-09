@@ -19,3 +19,6 @@ Next, I went to the “date” column. Things get a little more complicated ther
 
 
 Moving on to the next columns (card_type, city), a series of replacements follows, as the data here was quite messy. Using the Filter in the Data Tab, you can easily identify all the different values contained in the column. So, for example, I replaced TEHRAN, tehr@n, ThRan, and other such instances with Tehran. In addition, I deleted the rows containing "nan" values that were left at the end. In the next column, I made the same changes. That is, data such as "vsa", "MastCard", "Master-Card", were changed to "Visa" and "Master Card", respectively. 
+
+
+Finally, in the last two columns (amount, id), I deleted quite a bit of data because there were incorrect entries and outliers. So, in the amount column, I deleted some extreme values, such as 0, 99999999, -9999999999, because, as you can understand, such transactions are not possible. In the "id" column, I removed several duplicates, since IDs are unique and refer to only one transaction. In fact, I noticed that many incorrect transaction values are associated with duplicate IDs, so it’s best to first clean up the transaction values and then the IDs.
