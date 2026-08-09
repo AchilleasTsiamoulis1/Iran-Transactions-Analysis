@@ -16,3 +16,6 @@ At first, I noticed that in the column named “status,” which contains titles
 
 
 Next, I went to the “date” column. Things get a little more complicated there. I couldn't easily filter it, since I wanted to keep both the date and the time. The easy part is that it consists only of the days of September 2025. I created a new column and copied the data from the previous one into it. I converted this new column to the “Time” format on the Home tab and the old column to "Short Date". That way, I separated the date from the time and kept both pieces of data intact. 
+
+
+Moving on to the next columns (card_type, city), a series of replacements follows, as the data here was quite messy. Using the Filter in the Data Tab, you can easily identify all the different values contained in the column. So, for example, I replaced TEHRAN, tehr@n, ThRan, and other such instances with Tehran. In addition, I deleted the rows containing “nan” values that were left at the end. In the next column, I made the same changes. That is, data such as “vsa,” “MastCard,” “Master-Card,” etc., were changed to “Visa” and “Master Card,” respectively. 
