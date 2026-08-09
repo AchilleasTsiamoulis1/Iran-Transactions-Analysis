@@ -22,3 +22,6 @@ Moving on to the next columns (card_type, city), a series of replacements follow
 
 
 Finally, in the last two columns (amount, id), I deleted quite a bit of data because there were incorrect entries and outliers. So, in the amount column, I deleted some extreme values, such as 0, 99999999, -9999999999, because, as you can understand, such transactions are not possible. In the "id" column, I removed several duplicates, since IDs are unique and refer to only one transaction. In fact, I noticed that many incorrect transaction values are associated with duplicate IDs, so it’s best to first clean up the transaction values and then the IDs.
+
+
+We are now at the point where the data has undergone the necessary preprocessing steps and is ready to be imported into any visualization program, which in this case is Power BI.
