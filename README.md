@@ -26,5 +26,4 @@ Finally, in the last two columns (amount, id), I deleted quite a bit of data bec
 
 We are now at the point where the data has undergone the necessary preprocessing steps and is ready to be imported into any visualization program, which in this case is Power BI.
 
-
 # Power BI Analysis
