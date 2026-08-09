@@ -30,4 +30,4 @@ We are now at the point where the data has undergone the necessary preprocessing
 In Power BI, I created a small dashboard with three different charts.
 
 
-The first chart shows the types of cards used for transactions (x-axis) in relation to the number of transactions made (y-axis). At the same time, I added a legend listing all the cities and sorted them in ascending order by the number of cities. The difference in Tehran’s figures is clearly evident, both in terms of payment cards and the number of cities using them.  
+* The first chart shows the types of cards used for transactions (x-axis) in relation to the number of transactions made (y-axis). At the same time, I added a legend listing all the cities and sorted them in ascending order by the number of cities. The difference in Tehran’s figures is clearly evident, both in terms of payment cards and the number of cities using them.  
